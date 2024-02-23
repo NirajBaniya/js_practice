@@ -105,4 +105,4 @@ switch(assumed_number) {
             break;
 
   }
-  console.log("hello")
+  
