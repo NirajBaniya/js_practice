@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener in javaScript</title>
+</head>
+<link rel="stylesheet" href="./event.css">
+<body>
+    <h1 id="main-heading"> Event Listeners </h1>
+     <div class="container">
+        <div class="boxes box-1">
+            <div id="heading">Example 1</div>
+            <button class="btn-1">Click</button>
+        </div>
+
+        <div class="boxes box-2">
+            <div id="heading">Example 2</div>
+            <button class="btn-2">Dbl Click</button>
+        </div>
+
+        <div class="boxes box-3">
+            <div id="heading">Example 3</div>
+            <button class="btn-3">Mouse Over</button>
+        </div>
+
+     </div>
+
+     <div class="container">
+        <button class="show-more-button boxes">
+            <h1 id="text-heading">Show More</h1>
+        </button>
+
+        <div class="hidden-content boxes">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae laudantium tempore maxime laborum ipsa commodi ipsum incidunt consequatur voluptates, suscipit fugit aperiam molestias eveniet accusantium cum iure eius? Sequi deleniti animi voluptas, minima earum minus? Nobis cupiditate animi quia modi nemo minima, debitis qui suscipit eveniet molestiae exercitationem eum expedita.
+        </div>
+     </div>
+
+     <hr>
+     <!-- Image Hide and Show Example  -->
+     <div class="image-container">
+        <button class="show-image">Show Image</button>
+        <button class="hide-image">Hide Image</button>
+        <img src="./image.PNG" alt="" class="image-details">
+     </div>
+
+     <hr>
+
+     <div class="inc-dec-container">
+        <div id="increment-count">
+            <button class="inc">Incerement</button>
+        </div>
+        <div id="total-count"></div>
+
+        <div id="decrement-count">
+            <button class="dec">Decrement</button>
+        </div>
+        <div id="resets">
+            <button class="reset">Reset</button>
+        </div>
+     </div>
+     <script src="./event.js"></script>
+</body>
+</html>
